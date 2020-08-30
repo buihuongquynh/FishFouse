@@ -337,6 +337,10 @@ body .container {
     white-space: nowrap;
 }
 
+.wrapper .overlay {
+    z-index: 782;
+}
+
 .home {
     position: relative;
 }
@@ -1330,6 +1334,9 @@ select {
     }
     .header .list__menu .item__content li {
         background-color: #9D8B66;
+        margin: 0;
+        border-bottom: 1px solid rgba(0, 0, 0, .1);
+        padding: 17px 0px 17px 0px;
     }
     .list__menu .item__content {
         background-color: #9D8B66;
