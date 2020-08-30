@@ -17,6 +17,12 @@ const header = {
 header.init();
 
 
+$(window).on('load', function(event) {
+    $('body').removeClass('preloading');
+    // $('.load').delay(1000).fadeOut('fast');
+    $('.loader').delay(1000).fadeOut('fast');
+});
+
 const keader = {
     init: function() {
         this.clickShowMenu('.overlay', '.list__menu', 'showMenu');
