@@ -1,3 +1,5 @@
+/* reset CSS */
+
 * {
     padding: 0;
     margin: 0;
@@ -34,6 +36,9 @@ li {
     box-sizing: border-box;
 }
 
+
+/* reset CSS */
+
 .fish__transparent::before,
 .fish__body::before,
 .fish__body::after {
@@ -41,6 +46,9 @@ li {
     display: block;
     position: absolute;
 }
+
+
+/* hiệu ứng load trang */
 
 .loader {
     position: fixed;
@@ -291,10 +299,16 @@ body .container {
     }
 }
 
+
+/* hiệu ứng load trang */
+
 .wrapper {
     overflow: hidden;
     max-width: 100%;
 }
+
+
+/* start header */
 
 .header {
     position: absolute;
@@ -444,7 +458,10 @@ body .container {
 }
 
 
-/* ===start banner=== */
+/* end header */
+
+
+/* start banner */
 
 .active {
     animation: run 9s;
@@ -528,7 +545,10 @@ body .container {
 }
 
 
-/* ====satrt location==== */
+/*=====end banner======== */
+
+
+/* ====start location==== */
 
 .location .loca__text {
     padding: 110px 90px;
@@ -593,6 +613,9 @@ body .container {
 }
 
 
+/* ====end location==== */
+
+
 /* ===list__img=== */
 
 .list__img img {
@@ -635,6 +658,9 @@ body .container {
     color: #ed4747;
     cursor: pointer;
 }
+
+
+/* ===end list__img=== */
 
 
 /* ===start what__new=== */
@@ -729,6 +755,9 @@ body .container {
     font-size: 16px;
     color: #848484;
 }
+
+
+/* ===end what__new=== */
 
 
 /* ===start menu=== */
